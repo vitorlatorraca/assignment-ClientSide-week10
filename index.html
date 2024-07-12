@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Car Interface</h1>
+        <div class="form-section">
+            <h2>Create Car</h2>
+            <div class="form-group">
+                <input id="car-make" type="text" placeholder="Make">
+                <input id="car-speed" type="number" placeholder="Speed (km/h)">
+                <input id="car-charge" type="number" placeholder="Charge (%)">
+                <button onclick="createCar()">Create Car</button>
+            </div>
+        </div>
+        <div id="car-list" class="car-list">
+            <h2>Cars</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

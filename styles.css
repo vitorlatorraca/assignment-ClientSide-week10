@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group input, .form-group button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.car-list {
+    margin-top: 20px;
+}
+
+.car-list div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #fafafa;
+}
+
+.car-list h3 {
+    margin: 0;
+    color: #007bff;
+}
+
+.car-list p {
+    margin: 5px 0;
+}
+
+.car-list button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    background-color: #f4f4f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.car-list button:hover {
+    background-color: #ddd;
+}
